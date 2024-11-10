@@ -1,0 +1,21 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+//Fonts
+@font-face {
+    font-family: Constant;
+    src: url('/public/font/constan.ttf');
+}
+
+@font-face {
+    font-family: CambriaMac;
+    src: url(/public/font/Cambriamac.ttf);
+}

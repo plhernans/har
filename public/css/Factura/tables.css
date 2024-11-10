@@ -1,0 +1,146 @@
+/*table style*/
+
+/* body {
+    font-family: monospace;
+} */
+
+.container-factpdf {
+    width: 100%;
+    /* width: 100%; */
+    /* max-width: 1000px; */
+    padding: 0;
+    margin: auto;
+}
+
+.tablefactpdf {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+}
+
+/* .tablefactpdf caption {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+} */
+
+.tablefactpdf tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.tablefactpdf th, .tablefactpdf td {
+    font-size: 12px;
+    /* padding: 1px; */
+}
+
+.tablefactpdf thead th{
+    text-transform: uppercase;
+    background-color: #ddd;
+}
+
+/* .tablefactpdf tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tablefactpdf tbody td:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+} */
+
+@media screen and (max-width: 550px) {
+    .tablefactpdf {
+        border: 0px;
+    }
+    /* .tablefactpdf caption {
+        font-size: 22px;
+    } */
+    .tablefactpdf thead {
+        display: none;
+    }
+    .tablefactpdf tr {
+        margin-bottom: 2px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .tablefactpdf th, .table td {
+        font-size: 12px;
+    }
+    .tablefactpdf td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: right;
+    }
+    .tablefactpdf  td:last-child {
+        border-bottom: 0px;
+    }
+    .tablefactpdf td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+
+    }
+}
+
+
+/* .top_bar{
+    background-color: #DDDDDD;
+    height:40px;
+    top: 0;
+} */
+
+/* .logo_fnc{
+    background-image: url("../../images/logo-goshima-transparente-395x300.png");
+    background-repeat: no-repeat;
+    height:180px;
+    width: auto;
+    margin-top:30px;
+} */
+
+/* .flexContainer {
+    margin: 2px 10px;
+    display: flex;
+  } */
+
+  .left {
+    flex-basis : 50%;
+    /* float: right !important; */
+  }
+
+  .right {
+    flex-basis : 50%;
+    float: right !important;
+    text-align: right;
+  }
+
+  .tdrigth{
+    text-align: right;
+  }
+
+  .tdleft{
+    text-align: left;
+  }
+
+  .tdcenter{
+    text-align: center;
+  }
+
+  .observaciones{
+      width: 100%;
+      height: 100px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ccc;
+  }
+
+  .datosfooter{
+      background-color: #ccc;
+      width: 98%;
+      height:100px;
+      margin-top: 10px;
+      padding:2px;
+  }

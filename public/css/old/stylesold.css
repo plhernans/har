@@ -1,0 +1,119 @@
+
+html{
+    font-size: 13px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+/*Color Letras Menu*/
+.navbar ul a,.navbar-brand{
+    color:white;
+}
+
+#ulmenu .dropdown-menu{
+    background-color: #142249;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#mFindPort{
+    position:fixed;
+    top: 30%;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-style: 400;
+
+}
+
+#tc-title{
+    font-size: 12pt;
+    font-style: normal;
+    color: grey;
+}
+#tcontrol{
+    height: 600px;
+}
+
+.formtcpuerto{
+    background-color: white;
+}
+
+.tcport-footer{
+    margin-left: 62%;
+    margin-bottom: 10px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: small;
+    border-color: red;
+}
+
+
+.leftTable {
+    width: 100%; /* 140px * 5 column + 16px scrollbar width */
+    border-spacing: 0;
+   /* display: block; */
+}
+
+.theadReservaLeft {
+    /*display: inline-block;*/
+    width: 100%;
+}
+.tbodyReservaLeft {
+    height: 200px;
+    /*display: inline-block;*/
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar-toggler {
+    color:grey;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.125rem;
+    line-height: 1;
+    border: 1px solid;
+
+}
+
+.modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+}
+
+.cardbodyPanelBooking, .cardbodyPanelBill{
+    height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.cardbodyListBooking{
+    height: 400px;
+}

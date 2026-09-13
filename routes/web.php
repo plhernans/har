@@ -36,7 +36,7 @@ Route::get('getCi', 'Tc\TcRemDestController@getCI')->name('getCi');
 Route::get('getId', 'Tc\TcRemitterController@getID')->name('getId');
 Route::get('voyage', 'Tc\TcViajeController@getVoyage')->name('voyage');
 Route::get('articulos', 'Tc\ArticuloDescripController@getArticulos')->name('articulos');
-Route::get('cp', 'Tc\TcProvMcipioController@getCP')->name('mcipio');
+Route::get('cp', 'Tc\TcProvMcipioController@getCP')->name('cp');
 Route::get('noproducto', 'Producto\ProductoController@getNoProducto')->name('noproducto');
 Route::get('/excel/{id?}', 'ExportController@export')->name('excel');
 Route::get('/excela/{id?}', 'ExportController@exporta')->name('excela');
